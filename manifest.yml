@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ECAMPOSAPP
+  host: ECAMPOSAPP
+  disk_quota: 1024M
+  services:
+  - Language Translator-1o
+  - Conversation-c5
